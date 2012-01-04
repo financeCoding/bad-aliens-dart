@@ -1,1 +1,1 @@
-Breaking bad-aliens-dart into two parts, the sample/application and src game engine. The GameEngine is flexable enough to be used as a library. 
+Breaking [bad-aliens-dart](https://github.com/sethladd/bad-aliens-dart) by [Seth Ladd](http://profiles.google.com/sethladd) into two parts, the [sample]() and [GameEngineLib](). The GameEngine is flexable enough to be used as a library in dart for rapid prototyping.
