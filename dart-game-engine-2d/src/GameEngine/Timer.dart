@@ -1,4 +1,4 @@
-class Timer {
+class GameTimer {
 
   num gameTime = 0;
   static final num MAX_STEP = 0.05;

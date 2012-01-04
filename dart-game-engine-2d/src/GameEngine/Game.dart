@@ -4,7 +4,7 @@ class Game {
   html.CanvasRenderingContext2D ctx;
   Point click;
   Point mouse;
-  Timer timer;
+  GameTimer timer;
   num clockTick;
   num surfaceWidth;
   num surfaceHeight;
@@ -16,7 +16,7 @@ class Game {
   bool showOutlines = false;
   
   Game(AssetManager this.assetManager) {
-    timer = new Timer();
+    timer = new GameTimer();
     entities = [];
   }
 

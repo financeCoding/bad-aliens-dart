@@ -2,7 +2,7 @@ class Earth extends GameEntity {
   
   static final num RADIUS = 67;
   
-  Earth(Game game) : super.withPosition(game, 0, 0) {
+  Earth(var game) : super.withPosition(game, 0, 0) {
     sprite = game.assetManager.getAsset('img/earth.png');
   }
   
